@@ -1,0 +1,96 @@
+{
+	"BUILD_DIR" : "/home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen",
+	"CMAKE_BINARY_DIR" : "/home/don/dev/WallpaperEngine-Linux/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/don/dev/WallpaperEngine-Linux/build/tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/don/dev/WallpaperEngine-Linux/tests",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : [ "/home/don/dev/WallpaperEngine-Linux/tests/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "/home/don/dev/WallpaperEngine-Linux",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "test_environment_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_TESTCASE_BUILDDIR=\"/home/don/dev/WallpaperEngine-Linux/build/tests\"",
+		"QT_TESTCASE_SOURCEDIR=\"/home/don/dev/WallpaperEngine-Linux/tests\"",
+		"QT_TESTLIB_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/don/dev/WallpaperEngine-Linux/src/core",
+		"/usr/include/qt6/QtCore",
+		"/usr/include/qt6",
+		"/usr/lib/qt6/mkspecs/linux-g++",
+		"/usr/include/qt6/QtGui",
+		"/usr/include/qt6/QtNetwork",
+		"/usr/include/qt6/QtDBus",
+		"/usr/include/qt6/QtTest",
+		"/usr/include",
+		"/usr/include/c++/16",
+		"/usr/include/c++/16/x86_64-pc-linux-gnu",
+		"/usr/include/c++/16/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/16/include",
+		"/usr/local/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/tests/CMakeFiles/test_environment_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/tests/CMakeFiles/test_environment_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/don/dev/WallpaperEngine-Linux/tests/test_environment.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,4 @@
+wpectl_autogen/timestamp: \
+	/home/don/dev/WallpaperEngine-Linux/src/cli/CMakeLists.txt \
+	/home/don/dev/WallpaperEngine-Linux/src/cli/main.cpp \
+	/usr/bin/cmake

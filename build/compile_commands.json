@@ -1,0 +1,260 @@
+[
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/wpecore_autogen/mocs_compilation.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/mocs_compilation.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/mocs_compilation.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/wpecore_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/types.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/types.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/types.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/types.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/environment.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/environment.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/environment.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/environment.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/settings.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/settings.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/settings.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/settings.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/tools.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/tools.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/tools.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/tools.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/library.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/library.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/library.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/library.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/workshop.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/workshop.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/workshop.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/workshop.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/steamcmd.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/steamcmd.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/steamcmd.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/steamcmd.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/nativeapply.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/nativeapply.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/nativeapply.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/nativeapply.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wextra -mno-direct-extern-access -o src/core/CMakeFiles/wpecore.dir/wallpapermanager.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/core/wallpapermanager.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/core/wallpapermanager.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore.dir/wallpapermanager.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DWPE_HAVE_LAYERSHELL -DWPE_HAVE_XCB -I/home/don/dev/WallpaperEngine-Linux/build/src/host/wpe-wallpaper-host_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtMultimedia -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/host/CMakeFiles/wpe-wallpaper-host.dir/wpe-wallpaper-host_autogen/mocs_compilation.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/host/wpe-wallpaper-host_autogen/mocs_compilation.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/host/wpe-wallpaper-host_autogen/mocs_compilation.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/host/CMakeFiles/wpe-wallpaper-host.dir/wpe-wallpaper-host_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DWPE_HAVE_LAYERSHELL -DWPE_HAVE_XCB -I/home/don/dev/WallpaperEngine-Linux/build/src/host/wpe-wallpaper-host_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtMultimedia -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/host/CMakeFiles/wpe-wallpaper-host.dir/main.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/host/main.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/host/main.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/host/CMakeFiles/wpe-wallpaper-host.dir/main.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DWPE_HAVE_LAYERSHELL -DWPE_HAVE_XCB -I/home/don/dev/WallpaperEngine-Linux/build/src/host/wpe-wallpaper-host_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtMultimedia -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/host/CMakeFiles/wpe-wallpaper-host.dir/.qt/rcc/qrc_host_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/host/.qt/rcc/qrc_host_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/host/.qt/rcc/qrc_host_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/host/CMakeFiles/wpe-wallpaper-host.dir/.qt/rcc/qrc_host_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/wpe-linux_autogen/mocs_compilation.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/mocs_compilation.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/mocs_compilation.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/wpe-linux_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/main.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/app/main.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/app/main.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/main.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/appcontroller.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/app/appcontroller.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/app/appcontroller.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/appcontroller.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/models.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/app/models.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/app/models.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/models.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/dbusapi.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/app/dbusapi.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/app/dbusapi.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/dbusapi.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/wpe-linux_qmltyperegistrations.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_qmltyperegistrations.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_qmltyperegistrations.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/wpe-linux_qmltyperegistrations.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_qmake_WpeLinux.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_qmake_WpeLinux.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_qmake_WpeLinux.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_qmake_WpeLinux.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qmlcache_loader.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qmlcache_loader.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qmlcache_loader.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qmlcache_loader.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_Main_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_Main_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_Main_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_Main_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_WorkshopPage_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_WorkshopPage_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_WorkshopPage_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_WorkshopPage_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_LibraryPage_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_LibraryPage_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_LibraryPage_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_LibraryPage_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_SettingsPage_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_SettingsPage_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_SettingsPage_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_SettingsPage_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_WallpaperCard_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_WallpaperCard_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_WallpaperCard_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_WallpaperCard_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_DetailPanel_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_DetailPanel_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_DetailPanel_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_DetailPanel_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_TypeBadge_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_TypeBadge_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_TypeBadge_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_TypeBadge_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_SteamLoginDialog_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_SteamLoginDialog_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_SteamLoginDialog_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_SteamLoginDialog_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_OnboardingDialog_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_OnboardingDialog_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_OnboardingDialog_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_OnboardingDialog_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_ToastBar_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_ToastBar_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_ToastBar_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_ToastBar_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_StatusRow_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_StatusRow_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_StatusRow_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_StatusRow_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_Section_qml.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_Section_qml.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.rcc/qmlcache/wpe-linux_qml_Section_qml.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.rcc/qmlcache/wpe-linux_qml_Section_qml.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_wpe-linux_raw_qml_0.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_wpe-linux_raw_qml_0.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_wpe-linux_raw_qml_0.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_wpe-linux_raw_qml_0.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_ext_gnome.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_ext_gnome.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_ext_gnome.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_ext_gnome.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_ext_plasma.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_ext_plasma.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_ext_plasma.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_ext_plasma.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DPROJECT_VERSION=\\\"0.2.0\\\" -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICKCONTROLS2_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/app -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -isystem /usr/include/qt6/QtQuickControls2 -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -mno-direct-extern-access -o src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_icons.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_icons.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qrc_icons.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/app/CMakeFiles/wpe-linux.dir/.qt/rcc/qrc_icons.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/cli/wpectl_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -mno-direct-extern-access -o src/cli/CMakeFiles/wpectl.dir/wpectl_autogen/mocs_compilation.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/src/cli/wpectl_autogen/mocs_compilation.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/src/cli/wpectl_autogen/mocs_compilation.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/cli/CMakeFiles/wpectl.dir/wpectl_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_NO_DEBUG -I/home/don/dev/WallpaperEngine-Linux/build/src/cli/wpectl_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtDBus -O3 -DNDEBUG -std=gnu++20 -mno-direct-extern-access -o src/cli/CMakeFiles/wpectl.dir/main.cpp.o -c /home/don/dev/WallpaperEngine-Linux/src/cli/main.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/src/cli/main.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/src/cli/CMakeFiles/wpectl.dir/main.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"/home/don/dev/WallpaperEngine-Linux/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/home/don/dev/WallpaperEngine-Linux/tests\\\" -DQT_TESTLIB_LIB -I/home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtTest -O3 -DNDEBUG -std=gnu++20 -mno-direct-extern-access -o tests/CMakeFiles/test_environment.dir/test_environment_autogen/mocs_compilation.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen/mocs_compilation.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen/mocs_compilation.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/tests/CMakeFiles/test_environment.dir/test_environment_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"/home/don/dev/WallpaperEngine-Linux/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/home/don/dev/WallpaperEngine-Linux/tests\\\" -DQT_TESTLIB_LIB -I/home/don/dev/WallpaperEngine-Linux/build/tests/test_environment_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtTest -O3 -DNDEBUG -std=gnu++20 -mno-direct-extern-access -o tests/CMakeFiles/test_environment.dir/test_environment.cpp.o -c /home/don/dev/WallpaperEngine-Linux/tests/test_environment.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/tests/test_environment.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/tests/CMakeFiles/test_environment.dir/test_environment.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"/home/don/dev/WallpaperEngine-Linux/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/home/don/dev/WallpaperEngine-Linux/tests\\\" -DQT_TESTLIB_LIB -I/home/don/dev/WallpaperEngine-Linux/build/tests/test_library_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtTest -O3 -DNDEBUG -std=gnu++20 -mno-direct-extern-access -o tests/CMakeFiles/test_library.dir/test_library_autogen/mocs_compilation.cpp.o -c /home/don/dev/WallpaperEngine-Linux/build/tests/test_library_autogen/mocs_compilation.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/build/tests/test_library_autogen/mocs_compilation.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/tests/CMakeFiles/test_library.dir/test_library_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/don/dev/WallpaperEngine-Linux/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"/home/don/dev/WallpaperEngine-Linux/build/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"/home/don/dev/WallpaperEngine-Linux/tests\\\" -DQT_TESTLIB_LIB -I/home/don/dev/WallpaperEngine-Linux/build/tests/test_library_autogen/include -I/home/don/dev/WallpaperEngine-Linux/src/core -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtDBus -isystem /usr/include/qt6/QtTest -O3 -DNDEBUG -std=gnu++20 -mno-direct-extern-access -o tests/CMakeFiles/test_library.dir/test_library.cpp.o -c /home/don/dev/WallpaperEngine-Linux/tests/test_library.cpp",
+  "file": "/home/don/dev/WallpaperEngine-Linux/tests/test_library.cpp",
+  "output": "/home/don/dev/WallpaperEngine-Linux/build/tests/CMakeFiles/test_library.dir/test_library.cpp.o"
+}
+]

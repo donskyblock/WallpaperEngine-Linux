@@ -1,0 +1,11 @@
+-rootPath
+/home/don/dev/WallpaperEngine-Linux/src/host
+-cmake-output
+-output-file
+/home/don/dev/WallpaperEngine-Linux/build/src/host/.qt/qml_imports/wpe-wallpaper-host_build.cmake
+-importPath
+/home/don/dev/WallpaperEngine-Linux/build/src/host
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/don/dev/WallpaperEngine-Linux/build/src/host/.qt/rcc/host_qml.qrc

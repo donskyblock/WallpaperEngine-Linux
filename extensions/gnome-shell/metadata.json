@@ -1,0 +1,7 @@
+{
+  "uuid": "wpe-linux@wpelinux.org",
+  "name": "Wallpaper Engine Linux",
+  "description": "Lets Wallpaper Engine Linux place its wallpaper windows behind everything else on GNOME (Mutter has no layer-shell).",
+  "shell-version": ["45", "46", "47", "48", "49"],
+  "url": "https://github.com/donskyblock/wallpaper-engine-linux"
+}

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Wallpaper Engine
+GenericName=Animated wallpapers
+Comment=Steam Workshop wallpapers for every Linux desktop
+Exec=wpe-linux
+Icon=wpe-linux
+Terminal=false
+Categories=Utility;Settings;DesktopSettings;
+Keywords=wallpaper;steam;workshop;animated;video;hyprland;niri;kde;gnome;
+StartupWMClass=wpe-linux

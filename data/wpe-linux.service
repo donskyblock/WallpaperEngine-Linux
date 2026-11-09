@@ -1,0 +1,16 @@
+[Unit]
+Description=Wallpaper Engine Linux (background instance)
+Documentation=https://github.com/donskyblock/wallpaper-engine-linux
+After=graphical-session.target
+PartOf=graphical-session.target
+ConditionEnvironment=|WAYLAND_DISPLAY
+ConditionEnvironment=|DISPLAY
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/wpe-linux --background
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=graphical-session.target

@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="/qt/qml/WpeLinux/">
+    <file alias="qml/Main.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/Main.qml</file>
+    <file alias="qml/WorkshopPage.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/WorkshopPage.qml</file>
+    <file alias="qml/LibraryPage.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/LibraryPage.qml</file>
+    <file alias="qml/SettingsPage.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/SettingsPage.qml</file>
+    <file alias="qml/WallpaperCard.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/WallpaperCard.qml</file>
+    <file alias="qml/DetailPanel.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/DetailPanel.qml</file>
+    <file alias="qml/TypeBadge.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/TypeBadge.qml</file>
+    <file alias="qml/SteamLoginDialog.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/SteamLoginDialog.qml</file>
+    <file alias="qml/OnboardingDialog.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/OnboardingDialog.qml</file>
+    <file alias="qml/ToastBar.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/ToastBar.qml</file>
+    <file alias="qml/StatusRow.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/StatusRow.qml</file>
+    <file alias="qml/Section.qml">/home/don/dev/WallpaperEngine-Linux/src/app/qml/Section.qml</file>
+  </qresource>
+</RCC>
+

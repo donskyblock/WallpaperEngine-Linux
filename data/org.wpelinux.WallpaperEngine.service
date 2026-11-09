@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.wpelinux.WallpaperEngine
+Exec=/usr/bin/wpe-linux --background

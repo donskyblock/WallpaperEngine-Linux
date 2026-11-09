@@ -1,0 +1,115 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "D-Bus Interface",
+                    "value": "org.wpelinux.WallpaperEngine1"
+                }
+            ],
+            "className": "DBusApi",
+            "lineNumber": 10,
+            "object": true,
+            "qualifiedClassName": "wpe::DBusApi",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "output",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 17,
+                    "name": "SetWallpaper",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "output",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 18,
+                    "name": "Random",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "output",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 19,
+                    "name": "Stop",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 20,
+                    "name": "Restore",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 21,
+                    "name": "Outputs",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 22,
+                    "name": "Status",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 23,
+                    "name": "Environment",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 24,
+                    "name": "Show",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 25,
+                    "name": "Quit",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QDBusAbstractAdaptor"
+                }
+            ]
+        }
+    ],
+    "inputFile": "dbusapi.h",
+    "outputRevision": 69
+}

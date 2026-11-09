@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/ext/plasma">
+    <file alias="metadata.json">/home/don/dev/WallpaperEngine-Linux/extensions/plasma/org.wpelinux.video/metadata.json</file>
+    <file alias="contents/ui/main.qml">/home/don/dev/WallpaperEngine-Linux/extensions/plasma/org.wpelinux.video/contents/ui/main.qml</file>
+    <file alias="contents/config/main.xml">/home/don/dev/WallpaperEngine-Linux/extensions/plasma/org.wpelinux.video/contents/config/main.xml</file>
+  </qresource>
+</RCC>
+

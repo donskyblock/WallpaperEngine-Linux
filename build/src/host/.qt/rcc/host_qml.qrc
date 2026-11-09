@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="Host.qml">/home/don/dev/WallpaperEngine-Linux/src/host/Host.qml</file>
+  </qresource>
+</RCC>
+
