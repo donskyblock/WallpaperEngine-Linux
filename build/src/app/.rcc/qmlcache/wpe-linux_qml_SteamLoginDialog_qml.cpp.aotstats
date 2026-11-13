@@ -1,0 +1,199 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "standardButtons",
+                            "line": 12,
+                            "message": "Could not find property \"standardButtons\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 15,
+                            "durationMicroseconds": 0,
+                            "functionName": "onOpened",
+                            "line": 17,
+                            "message": "Could not find signal \"opened\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 10,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 20,
+                            "message": "Cannot access value for name App"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onGuardCodeRequired",
+                            "line": 21,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoginFinished",
+                            "line": 22,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 28,
+                            "message": "Could not find property \"wrapMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 110,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 31,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 105,
+                            "durationMicroseconds": 0,
+                            "functionName": "echoMode",
+                            "line": 32,
+                            "message": "Could not find property \"echoMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 134,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 32,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 160,
+                            "durationMicroseconds": 0,
+                            "functionName": "onAccepted",
+                            "line": 32,
+                            "message": "Could not find signal \"accepted\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 35,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "onAccepted",
+                            "line": 37,
+                            "message": "Could not find signal \"accepted\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 39,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 39,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 75,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 39,
+                            "message": "Could not find property \"wrapMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 117,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 39,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 40,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 42,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 43,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 47,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 48,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 49,
+                            "message": "Could not find signal \"clicked\"."
+                        }
+                    ],
+                    "filePath": "/home/don/dev/WallpaperEngine-Linux/src/app/qml/SteamLoginDialog.qml"
+                }
+            ],
+            "moduleId": "WpeLinux(wpe-linux)"
+        }
+    ]
+}

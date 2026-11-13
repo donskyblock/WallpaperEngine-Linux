@@ -1,0 +1,383 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "scale",
+                            "line": 19,
+                            "message": "Could not find property \"scale\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "type",
+                            "line": 20,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 21,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTapped",
+                            "line": 22,
+                            "message": "Cannot retrieve a non-object type by ID: card"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 26,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 27,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 28,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 45,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 33,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 38,
+                            "message": "Cannot access value for name captionRow"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 40,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 37,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 49,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 37,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 68,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 37,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 25,
+                            "durationMicroseconds": 0,
+                            "functionName": "source",
+                            "line": 45,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 46,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "opacity",
+                            "line": 51,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 44,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 56,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 55,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 90,
+                            "durationMicroseconds": 0,
+                            "functionName": "kind",
+                            "line": 62,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 62,
+                            "message": "Could not find property \"left\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 59,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 62,
+                            "message": "Could not find property \"top\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 65,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 67,
+                            "message": "Cannot access value for name badgeLabel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 68,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 66,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 53,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 66,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 73,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 69,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 59,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 69,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 74,
+                            "message": "Cannot access value for name card"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 75,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 73,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 76,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 76,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 82,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 49,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 82,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "bottom",
+                            "line": 82,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 85,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 85,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 85,
+                            "message": "Could not find property \"elide\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 108,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 85,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 86,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 86,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 69,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 86,
+                            "message": "Could not find property \"elide\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 127,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 86,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 155,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 86,
+                            "message": "Could not find property \"visible\"."
+                        }
+                    ],
+                    "filePath": "/home/don/dev/WallpaperEngine-Linux/src/app/qml/WallpaperCard.qml"
+                }
+            ],
+            "moduleId": "WpeLinux(wpe-linux)"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 15,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 81,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 15,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 18,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 79,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 18,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 19,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 19,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 79,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 19,
+                            "message": "Could not find property \"wrapMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 136,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 19,
+                            "message": "Could not find property \"color\"."
+                        }
+                    ],
+                    "filePath": "/home/don/dev/WallpaperEngine-Linux/src/app/qml/Section.qml"
+                }
+            ],
+            "moduleId": "WpeLinux(wpe-linux)"
+        }
+    ]
+}

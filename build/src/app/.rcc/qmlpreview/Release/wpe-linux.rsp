@@ -1,0 +1,12 @@
+--interactive
+--resource
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qmake_WpeLinux.qrc
+--resource
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/wpe-linux_raw_qml_0.qrc
+--resource
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/ext_gnome.qrc
+--resource
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/ext_plasma.qrc
+--resource
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/icons.qrc
+/home/don/dev/WallpaperEngine-Linux/build/bin/wpe-linux

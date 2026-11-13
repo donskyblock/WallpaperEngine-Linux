@@ -1,0 +1,62 @@
+{
+    "classes": [
+        {
+            "className": "WorkshopModel",
+            "lineNumber": 11,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "isConst": true,
+                    "lineNumber": 25,
+                    "name": "get",
+                    "returnType": "QVariantMap"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "wpe::WorkshopModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        },
+        {
+            "className": "LibraryModel",
+            "lineNumber": 33,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "isConst": true,
+                    "lineNumber": 47,
+                    "name": "get",
+                    "returnType": "QVariantMap"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "wpe::LibraryModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "models.h",
+    "outputRevision": 69
+}

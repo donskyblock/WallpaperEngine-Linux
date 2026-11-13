@@ -1,0 +1,3 @@
+/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include/../EWIEGA46WW/moc_appcontroller.cpp.json
+/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include/../EWIEGA46WW/moc_dbusapi.cpp.json
+/home/don/dev/WallpaperEngine-Linux/build/src/app/wpe-linux_autogen/include/../EWIEGA46WW/moc_models.cpp.json

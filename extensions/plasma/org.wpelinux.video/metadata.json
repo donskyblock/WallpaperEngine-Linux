@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Id": "org.wpelinux.video",
+        "Name": "Wallpaper Engine Linux (video)",
+        "Description": "Plays a video wallpaper natively inside Plasma, so desktop icons and widgets keep working.",
+        "Icon": "video-x-generic",
+        "Authors": [{ "Name": "wpe-linux" }],
+        "License": "GPL-3.0+",
+        "Version": "0.2.0"
+    },
+    "KPackageStructure": "Plasma/Wallpaper",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

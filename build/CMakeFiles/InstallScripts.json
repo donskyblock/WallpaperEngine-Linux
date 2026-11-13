@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/don/dev/WallpaperEngine-Linux/build/cmake_install.cmake",
+		"/home/don/dev/WallpaperEngine-Linux/build/src/core/cmake_install.cmake",
+		"/home/don/dev/WallpaperEngine-Linux/build/src/host/cmake_install.cmake",
+		"/home/don/dev/WallpaperEngine-Linux/build/src/app/cmake_install.cmake",
+		"/home/don/dev/WallpaperEngine-Linux/build/src/cli/cmake_install.cmake",
+		"/home/don/dev/WallpaperEngine-Linux/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

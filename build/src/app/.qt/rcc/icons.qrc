@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file alias="wpe-linux.png">/home/don/dev/WallpaperEngine-Linux/data/wpe-linux.png</file>
+  </qresource>
+</RCC>
+

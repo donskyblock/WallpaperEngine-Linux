@@ -1,0 +1,431 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 14,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 12,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "currentPage",
+                            "line": 14,
+                            "message": "Cannot access value for name startPage"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClosing",
+                            "line": 17,
+                            "message": "Could not find signal \"closing\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClosing",
+                            "line": 17,
+                            "message": "Could not find signal \"closing\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "outputModel",
+                            "line": 23,
+                            "message": "Cannot access value for name App"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "activeHere",
+                            "line": 25,
+                            "message": "Cannot access value for name App"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 19,
+                            "message": "Cannot access value for name App"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 20,
+                            "message": "Cannot access value for name App"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onOnboardingChanged",
+                            "line": 20,
+                            "message": "Cannot access value for name App"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 21,
+                            "message": "Cannot access value for name App"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onToast",
+                            "line": 21,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 28,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 37,
+                            "message": "Cannot generate efficient code for calling method with argument affected by side effects"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 38,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 98,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 38,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method alpha, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 38,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 41,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 77,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourceSize",
+                            "line": 46,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 89,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 49,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 100,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 50,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 55,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 58,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "highlighted",
+                            "line": 60,
+                            "message": "Could not find property \"highlighted\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 61,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "name",
+                            "line": 59,
+                            "message": "Could not find property \"name\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "highlighted",
+                            "line": 69,
+                            "message": "Could not find property \"highlighted\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 70,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 74,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 75,
+                            "message": "Could not find property \"wrapMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 84,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 75,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "currentIndex",
+                            "line": 84,
+                            "message": "Cannot retrieve a non-object type by ID: win"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "onOpenSettings",
+                            "line": 85,
+                            "message": "Cannot retrieve a non-object type by ID: win"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 45,
+                            "durationMicroseconds": 0,
+                            "functionName": "onBrowseWorkshop",
+                            "line": 86,
+                            "message": "Cannot retrieve a non-object type by ID: win"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "onOpenLogin",
+                            "line": 87,
+                            "message": "Cannot retrieve a non-object type by ID: login"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 93,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 75,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 93,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 107,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 93,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method alpha, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 95,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 66,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 98,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 102,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "currentIndex",
+                            "line": 103,
+                            "message": "Could not find property \"currentIndex\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 104,
+                            "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 108,
+                            "message": "Could not find property \"elide\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 109,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 111,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "running",
+                            "line": 115,
+                            "message": "Could not find property \"running\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 61,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 115,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 85,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 116,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 123,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 116,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 53,
+                            "durationMicroseconds": 0,
+                            "functionName": "onOpenLogin",
+                            "line": 121,
+                            "message": "Cannot retrieve a non-object type by ID: login"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 123,
+                            "message": "Could not find property \"horizontalCenter\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 88,
+                            "durationMicroseconds": 0,
+                            "functionName": "bottom",
+                            "line": 123,
+                            "message": "Could not find property \"bottom\"."
+                        }
+                    ],
+                    "filePath": "/home/don/dev/WallpaperEngine-Linux/src/app/qml/Main.qml"
+                }
+            ],
+            "moduleId": "WpeLinux(wpe-linux)"
+        }
+    ]
+}

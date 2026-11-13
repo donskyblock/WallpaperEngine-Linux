@@ -1,0 +1,180 @@
+{
+	"BUILD_DIR" : "/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen",
+	"CMAKE_BINARY_DIR" : "/home/don/dev/WallpaperEngine-Linux/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/don/dev/WallpaperEngine-Linux/build/src/core",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/don/dev/WallpaperEngine-Linux/src/core",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : [ "/home/don/dev/WallpaperEngine-Linux/src/core/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "/home/don/dev/WallpaperEngine-Linux",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "wpecore_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/environment.h",
+			"MU",
+			"EWIEGA46WW/moc_environment.cpp",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/library.h",
+			"MU",
+			"EWIEGA46WW/moc_library.cpp",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/nativeapply.h",
+			"MU",
+			"EWIEGA46WW/moc_nativeapply.cpp",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/settings.h",
+			"MU",
+			"EWIEGA46WW/moc_settings.cpp",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/steamcmd.h",
+			"MU",
+			"EWIEGA46WW/moc_steamcmd.cpp",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/tools.h",
+			"MU",
+			"EWIEGA46WW/moc_tools.cpp",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/types.h",
+			"MU",
+			"EWIEGA46WW/moc_types.cpp",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/wallpapermanager.h",
+			"MU",
+			"EWIEGA46WW/moc_wallpapermanager.cpp",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/workshop.h",
+			"MU",
+			"EWIEGA46WW/moc_workshop.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/don/dev/WallpaperEngine-Linux/src/core",
+		"/usr/include/qt6/QtCore",
+		"/usr/include/qt6",
+		"/usr/lib/qt6/mkspecs/linux-g++",
+		"/usr/include/qt6/QtGui",
+		"/usr/include/qt6/QtNetwork",
+		"/usr/include/qt6/QtDBus",
+		"/usr/include",
+		"/usr/include/c++/16",
+		"/usr/include/c++/16/x86_64-pc-linux-gnu",
+		"/usr/include/c++/16/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/16/include",
+		"/usr/local/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/src/core/wpecore_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/don/dev/WallpaperEngine-Linux/build/src/core/CMakeFiles/wpecore_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/environment.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/library.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/nativeapply.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/settings.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/steamcmd.cpp",
+			"MU",
+			null
+		],
+		[ "/home/don/dev/WallpaperEngine-Linux/src/core/tools.cpp", "MU", null ],
+		[ "/home/don/dev/WallpaperEngine-Linux/src/core/types.cpp", "MU", null ],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/wallpapermanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/don/dev/WallpaperEngine-Linux/src/core/workshop.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

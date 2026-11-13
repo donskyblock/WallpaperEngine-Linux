@@ -1,0 +1,17 @@
+-rootPath
+/home/don/dev/WallpaperEngine-Linux/src/app
+-cmake-output
+-output-file
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/qml_imports/wpe-linux_conf.cmake
+-importPath
+/home/don/dev/WallpaperEngine-Linux/build/src/app
+-importPath
+/home/don/dev/WallpaperEngine-Linux/build/src/app/WpeLinux
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/qmake_WpeLinux.qrc
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/wpe-linux_raw_qml_0.qrc
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/ext_gnome.qrc
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/ext_plasma.qrc
+/home/don/dev/WallpaperEngine-Linux/build/src/app/.qt/rcc/icons.qrc

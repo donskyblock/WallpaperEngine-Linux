@@ -1,0 +1,17 @@
+module WpeLinux
+typeinfo wpe-linux.qmltypes
+prefer :/qt/qml/WpeLinux/
+Main 1.0 qml/Main.qml
+WorkshopPage 1.0 qml/WorkshopPage.qml
+LibraryPage 1.0 qml/LibraryPage.qml
+SettingsPage 1.0 qml/SettingsPage.qml
+WallpaperCard 1.0 qml/WallpaperCard.qml
+DetailPanel 1.0 qml/DetailPanel.qml
+TypeBadge 1.0 qml/TypeBadge.qml
+SteamLoginDialog 1.0 qml/SteamLoginDialog.qml
+OnboardingDialog 1.0 qml/OnboardingDialog.qml
+ToastBar 1.0 qml/ToastBar.qml
+StatusRow 1.0 qml/StatusRow.qml
+Section 1.0 qml/Section.qml
+depends QtQuick
+

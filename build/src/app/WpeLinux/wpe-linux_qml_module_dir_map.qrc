@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/WpeLinux">/home/don/dev/WallpaperEngine-Linux/build/src/app/WpeLinux</file>
+
+  </qresource>
+</RCC>

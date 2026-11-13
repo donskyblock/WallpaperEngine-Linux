@@ -1,0 +1,6 @@
+wpe-wallpaper-host_autogen/timestamp: \
+	/home/don/dev/WallpaperEngine-Linux/build/src/host/.qt/qml_imports/wpe-wallpaper-host_conf.cmake \
+	/home/don/dev/WallpaperEngine-Linux/src/host/CMakeLists.txt \
+	/home/don/dev/WallpaperEngine-Linux/src/host/main.cpp \
+	/usr/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+	/usr/bin/cmake

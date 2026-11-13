@@ -1,0 +1,415 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "item",
+                            "line": 9,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "progress",
+                            "line": 12,
+                            "message": "Cannot load property itemId from DetailPanel::item with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "rating",
+                            "line": 13,
+                            "message": "Cannot load property votesUp from DetailPanel::item with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 16,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 87,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 16,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 109,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 16,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentWidth",
+                            "line": 20,
+                            "message": "Could not find property \"contentWidth\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 19,
+                            "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 24,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "preferredHeight",
+                            "line": 29,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "source",
+                            "line": 32,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 33,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 31,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 95,
+                            "durationMicroseconds": 0,
+                            "functionName": "kind",
+                            "line": 36,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 45,
+                            "durationMicroseconds": 0,
+                            "functionName": "left",
+                            "line": 36,
+                            "message": "Could not find property \"left\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 36,
+                            "message": "Could not find property \"top\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 41,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 38,
+                            "message": "Could not find property \"right\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 38,
+                            "message": "Could not find property \"top\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 50,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 101,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 50,
+                            "message": "Could not find property \"wrapMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 143,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 50,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 55,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 63,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 98,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 63,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 64,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 80,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 64,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 73,
+                            "message": "Cannot retrieve a non-object type by ID: root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 75,
+                            "message": "Cannot retrieve a non-object type by ID: tagLabel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 76,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 77,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 121,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 77,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 69,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 77,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 83,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 84,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 85,
+                            "message": "Could not find property \"wrapMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 88,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 99,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 102,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 103,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 108,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 109,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 110,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 112,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 115,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 116,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 117,
+                            "message": "Could not find property \"elide\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 121,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 123,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 129,
+                            "message": "Could not find signal \"clicked\"."
+                        }
+                    ],
+                    "filePath": "/home/don/dev/WallpaperEngine-Linux/src/app/qml/DetailPanel.qml"
+                }
+            ],
+            "moduleId": "WpeLinux(wpe-linux)"
+        }
+    ]
+}

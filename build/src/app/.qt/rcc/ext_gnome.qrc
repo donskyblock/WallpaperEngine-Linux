@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/ext/gnome-shell">
+    <file alias="metadata.json">/home/don/dev/WallpaperEngine-Linux/extensions/gnome-shell/metadata.json</file>
+    <file alias="extension.js">/home/don/dev/WallpaperEngine-Linux/extensions/gnome-shell/extension.js</file>
+  </qresource>
+</RCC>
+
