@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# CMake, Ninja and Qt build output
+/build/
+/build-*/
+/cmake-build-*/
+/release/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+compile_commands.json
+install_manifest.txt
+build.ninja
+.ninja_deps
+.ninja_log
+Testing/
+*_autogen/
+.qt/
+.rcc/

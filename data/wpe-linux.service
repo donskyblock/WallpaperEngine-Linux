@@ -8,7 +8,7 @@ ConditionEnvironment=|DISPLAY
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/wpe-linux --background
+ExecStart="@CMAKE_INSTALL_FULL_BINDIR@/wpe-linux" --background
 Restart=on-failure
 RestartSec=3
 

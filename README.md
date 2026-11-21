@@ -54,20 +54,32 @@ The mapping lives in one place, `planFor()` in `src/core/environment.cpp`, and i
 ## Build
 
 Dependencies: Qt 6.4+ (Base, Declarative, Multimedia, Wayland, Svg), CMake 3.21+, a C++20 compiler,
-`libxcb`, and **layer-shell-qt built for Qt 6** (Arch `layer-shell-qt`, Fedora `layer-shell-qt-devel`,
+`libxcb`, Ninja, and **layer-shell-qt built for Qt 6** (Arch `layer-shell-qt`, Fedora/Void `layer-shell-qt-devel`,
 Debian 13+/Ubuntu 25.04+ `liblayershellqtinterface-dev`).
-Without layer-shell-qt the app still builds but Wayland layer-shell placement is unavailable.
+For a build that does not use Wayland layer-shell placement, pass `-DWPE_REQUIRE_LAYER_SHELL=OFF` to `build.sh`.
 For KDE-native styling also install `qqc2-desktop-style`.
 Qt 6.5+ is recommended: it follows the GNOME dark/light setting and accent colour through the portal.
 
 ```sh
-cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
-cmake --build build
-ctest --test-dir build
-sudo cmake --install build
+./build.sh
+ctest --test-dir build --output-on-failure
+sudo ./install.sh
 ```
 
+The default installation prefix is `/usr/local` for a new build. Set
+`-DCMAKE_INSTALL_PREFIX=/path` when running `build.sh` to change it.
+Both scripts accept `WPE_BUILD_DIR` for an alternate build directory. Use
+`DESTDIR=/path ./install.sh` to stage the installation.
+
 Runtime tools, all optional: `linux-wallpaperengine` (scenes), `steamcmd` (downloads).
+
+## Release
+
+Run `./release-maker.sh` to build and test a fresh release and create a source
+tarball, a Linux binary tarball for the build machine's architecture, and a SHA-256
+checksum file in `release/`. Pass a directory as the first argument to write the
+artifacts elsewhere. The binary tarball uses the `/usr` layout and needs compatible
+Qt 6, layer-shell-qt, and XCB runtime libraries on the target machine.
 
 ## Using it
 

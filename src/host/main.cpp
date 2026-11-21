@@ -92,7 +92,7 @@ int main(int argc, char **argv)
         if (qEnvironmentVariableIsEmpty("QT_QPA_PLATFORM")) qputenv("QT_QPA_PLATFORM", "wayland");
         LayerShellQt::Shell::useLayerShell();
 #else
-        fprintf(stderr, "wpe-wallpaper-host was built without layer-shell-qt support\n");
+        fprintf(stderr, "Wayland wallpaper placement requires the Qt 6 layer-shell-qt package and a rebuilt wpe-wallpaper-host\n");
         return 64;
 #endif
     } else if (placement == "x11-desktop") {
