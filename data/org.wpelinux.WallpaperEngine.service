@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.wpelinux.WallpaperEngine
+Exec="@CMAKE_INSTALL_FULL_BINDIR@/wpe-linux" --background
