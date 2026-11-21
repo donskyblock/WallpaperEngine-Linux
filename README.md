@@ -1,137 +1,103 @@
-# Wallpaper Engine for Linux: native C++/Qt rewrite
+# Wallpaper Engine for Linux
 
-A ground-up rewrite of the Tauri/React app in C++20 and Qt 6. No webview, no Node, no Rust toolchain.
-The UI is Qt Quick Controls driven by your system palette and icon theme, and wallpaper placement is chosen
-per compositor instead of assuming Hyprland.
+A native Linux app for animated desktop wallpapers. Use your own images and videos, build layered wallpapers with clocks and widgets, or bring in compatible Steam Workshop wallpapers.
 
-Scene and Web wallpapers are still rendered by [linux-wallpaperengine](https://github.com/Almamu/linux-wallpaperengine)
-(already C++). This app orchestrates it; a from-scratch scene renderer is a separate multi-year project.
+[Installation](#installation) · [Quick start](#quick-start) · [Desktop compatibility](#desktop-compatibility) · [Catalogue](#catalogue) · [Contributing](#contributing)
 
-## Independent wallpapers (no Steam required)
+- **My Library** imports local media and applies wallpapers to the selected display where your desktop supports it.
+- **Creator** combines image, video, text and clock layers with a live preview. Native projects can also use [scripted widgets](docs/scripted-widgets.md).
+- **Community** installs wallpapers from independent HTTPS catalogues. Local media, Creator and Community all work without Steam.
+- **Workshop** browses and downloads compatible Steam Workshop items. **`wpectl`** lets you switch wallpapers from a terminal, script or keyboard shortcut.
 
-Import your own images/videos in **My Library**, build layered wallpapers in
-**Creator**, or load an HTTPS metadata catalog in **Community**. Creator supports
-image/video layers, text/clock widgets, and custom JavaScript widgets with D-Bus
-media data and pointer animations, using a shared Qt preview and native player. Steam Workshop remains an optional source for compatible wallpapers.
+## Installation
 
-See [native wallpaper format, creator, catalog publishing and limits](docs/native-wallpapers.md).
-See [scripted widget API and examples](docs/scripted-widgets.md).
-The metadata-only catalog starter is [catalog/catalog.json](catalog/catalog.json).
+Build with a C++20 compiler, CMake 3.21+, Ninja, pkg-config and Qt 6.4+ development packages, including Qt Base, Declarative and Multimedia. Install the Qt Wayland runtime for Wayland sessions and the XCB development package for X11 wallpaper placement.
 
-## What runs where
+For Wayland compositors that use layer-shell, install the **Qt 6** build of layer-shell-qt.
 
-| Session | Still images | Video | Scene / Web (via linux-wallpaperengine) |
-|---|---|---|---|
-| **Hyprland, Niri, Sway, mango, River, labwc, Wayfire, COSMIC** | host window, layer-shell | host window, layer-shell | `--screen-root` (layer-shell) |
-| **KDE Plasma** | native, per-output via plasmashell | bundled Plasma wallpaper plugin | KWin script pins the window |
-| **GNOME / Budgie / Pantheon (Wayland)** | native `gsettings` | host window + bundled Shell extension | same, via extension |
-| **GNOME (X11)** | native `gsettings` | X11 desktop window | X11 `--screen-root` |
-| **XFCE** | native `xfconf` | X11 desktop window | X11 `--screen-root` |
-| **Cinnamon, MATE** | native `gsettings` | X11 desktop window | X11 `--screen-root` |
-| **i3, bspwm, openbox, awesome, dwm, LXQt, any EWMH WM** | host window, X11 | X11 desktop window | X11 `--screen-root` |
-
-The mapping lives in one place, `planFor()` in `src/core/environment.cpp`, and is unit-tested.
-
-## Verification status
-
-| Piece | Status |
-|---|---|
-| Environment detection and placement plan (Hyprland, Niri, Sway, mango, Plasma, GNOME, XFCE, Cinnamon, MATE, generic) | Unit tests pass |
-| Library scanning and classification | Unit tests pass |
-| QML UI (Workshop, Library, Settings) | Built, run, screenshotted headless |
-| Single instance + D-Bus API + `wpectl` + state persistence | Run end to end under `dbus-run-session` |
-| Children die with the app (`PR_SET_PDEATHSIG`) | Verified |
-| **X11 desktop window** (type DESKTOP, below, skip taskbar/pager, all desktops, monitor-sized) | Verified on Xvfb + Openbox |
-| **Wayland layer-shell**, two outputs with different sizes | Verified on headless Sway |
-| Video playback | **Not tested**: no Qt Multimedia backend in the build sandbox |
-| Hyprland / Niri / mango specifically | Not run; they implement the same protocol as Sway |
-| **GNOME Shell extension** | **Written, never run on real GNOME** |
-| **Plasma wallpaper plugin + KWin pinning script + `evaluateScript` still-image path** | **Written, never run on real Plasma** |
-| Native still-image setters (`gsettings`, `xfconf`) | Written, not run (no GNOME/XFCE session available) |
-| steamcmd in-app login (password and Steam Guard prompt matching) | **Written, never run against real steamcmd** |
-| `linux-wallpaperengine` flags (`--window`, `--fps`, `--screen-root`, ...) | Based on the old app plus upstream docs; verify with `linux-wallpaperengine --help` |
-
-## Build
-
-Dependencies: Qt 6.4+ (Base, Declarative, Multimedia, Wayland, Svg), CMake 3.21+, a C++20 compiler,
-`libxcb`, Ninja, and **layer-shell-qt built for Qt 6** (Arch `layer-shell-qt`, Fedora/Void `layer-shell-qt-devel`,
-Debian 13+/Ubuntu 25.04+ `liblayershellqtinterface-dev`).
-For a build that does not use Wayland layer-shell placement, pass `-DWPE_REQUIRE_LAYER_SHELL=OFF` to `build.sh`.
-For KDE-native styling also install `qqc2-desktop-style`.
-Qt 6.5+ is recommended: it follows the GNOME dark/light setting and accent colour through the portal.
+| Distribution | Layer-shell development package |
+| --- | --- |
+| Arch Linux | `layer-shell-qt` |
+| Fedora and Void Linux | `layer-shell-qt-devel` |
+| Debian and Ubuntu, where packaged | `liblayershellqtinterface-dev` |
 
 ```sh
+git clone https://github.com/donskyblock/WallpaperEngine-Linux.git
+cd WallpaperEngine-Linux
 ./build.sh
 ctest --test-dir build --output-on-failure
 sudo ./install.sh
 ```
 
-The default installation prefix is `/usr/local` for a new build. Set
-`-DCMAKE_INSTALL_PREFIX=/path` when running `build.sh` to change it.
-Both scripts accept `WPE_BUILD_DIR` for an alternate build directory. Use
-`DESTDIR=/path ./install.sh` to stage the installation.
+The default install prefix is `/usr/local`. Pass `-DCMAKE_INSTALL_PREFIX=/path` to `./build.sh` to use a different prefix. Set `WPE_BUILD_DIR` for both scripts to use a different build directory. If your desktop uses another placement backend and layer-shell-qt is unavailable, configure with `./build.sh -DWPE_REQUIRE_LAYER_SHELL=OFF`.
 
-Runtime tools, all optional: `linux-wallpaperengine` (scenes), `steamcmd` (downloads).
+Workshop browsing uses a Steam Web API key, downloads use `steamcmd`, and Scene and Web wallpapers use [linux-wallpaperengine](https://github.com/Almamu/linux-wallpaperengine). Web wallpapers require a renderer build with CEF support.
 
-## Release
+## Quick start
 
-Run `./release-maker.sh` to build and test a fresh release and create a source
-tarball, a Linux binary tarball for the build machine's architecture, and a SHA-256
-checksum file in `release/`. Pass a directory as the first argument to write the
-artifacts elsewhere. The binary tarball uses the `/usr` layout and needs compatible
-Qt 6, layer-shell-qt, and XCB runtime libraries on the target machine.
+1. Launch **Wallpaper Engine** from your application menu or run `wpe-linux`.
+2. Open **My Library → Import media** and choose an image or video.
+3. Select the wallpaper and a display, then click **Apply**. To build your own wallpaper, open **Creator** and save your project to the library.
 
-## Using it
+Closing the window hides the app to the tray. **Quit** stops the app's wallpaper players. To restore your last wallpapers at login, add `wpe-linux --background` to your desktop or compositor's autostart.
 
 ```sh
-wpe-linux                       # window
-wpe-linux --background          # tray only; restores your last wallpapers
-wpectl set ~/Videos/loop.mp4 -o DP-1
-wpectl random                   # random wallpaper from the library
+wpectl list
+wpectl set "$HOME/Videos/loop.mp4" -o DP-1
+wpectl random
+wpectl status
 wpectl stop
-wpectl env                      # what was detected and which strategy will be used
 ```
 
-Autostart and key binds:
+Use a connector name from `wpectl list` in place of `DP-1`. Run `wpectl env` to see which desktop and placement strategy the app detected.
 
-```
-# Hyprland           exec-once = wpe-linux --background        bind = SUPER, W, exec, wpectl random
-# Niri (config.kdl)  spawn-at-startup "wpe-linux" "--background"    Mod+W { spawn "wpectl" "random"; }
-# Sway / i3          exec wpe-linux --background               bindsym $mod+w exec wpectl random
-# mango              exec-once=wpe-linux --background          bind=SUPER,w,spawn,wpectl random
-# Anything else      systemctl --user enable --now wpe-linux.service
-```
+## Desktop compatibility
 
-GNOME: Settings → Components → install the Shell extension, then log out and in once.
-Plasma: Settings → Components → install the Plasma plugin.
+| Session | Wallpaper placement |
+| --- | --- |
+| Wayland with layer-shell, including Hyprland, Niri, Sway, River and COSMIC | The bundled host places images, videos and native projects on the desktop. Scene and Web wallpapers use the external renderer. |
+| KDE Plasma | Uses Plasma's native image settings, the bundled wallpaper plugin for video and KWin window placement for Scene and Web wallpapers. |
+| GNOME on Wayland | Uses the desktop background setting for images and the bundled Shell extension for live wallpaper placement. The image setting applies across displays. |
+| X11, including XFCE, Cinnamon, MATE and EWMH window managers | Uses desktop settings where available and X11 desktop windows for live wallpapers. |
 
-## Migrating from the Tauri version
+On Plasma, install the wallpaper plugin from **Settings → Components**. On GNOME Wayland, install the Shell extension from the same panel and sign out and back in.
 
-`~/.config/wpe-linux/settings.json` and the download directory layout are unchanged, so existing installs and
-downloaded wallpapers carry over. Wallpapers you subscribed to in the real Steam client are picked up too.
-Behaviour differences:
+Layer-shell placement has been exercised with headless Sway and X11 placement with Openbox on Xvfb. Video playback depends on the Qt Multimedia backend. GNOME Shell and Plasma integrations still need verification in real desktop sessions.
 
-- **Closing the window hides to the tray**, as before. **Quit** now stops the wallpapers (they are children of the app and die with it), and they are restored on next start.
-- No `awww`, `mpvpaper`, `hyprctl`, `xdotool` or `wmctrl` dependency. Images and video are drawn by the bundled host.
-- The terminal-emulator hack for Steam login is gone; sign-in happens in a dialog.
-- Scripts in `scripts/` and the npm/Cargo files are obsolete.
+## Catalogue
 
-## Layout
+The **Community** tab reads an HTTPS catalogue with entries for images, videos and native wallpaper projects. Each entry lists the creator, licence and files to download. The catalogue holds metadata, and creators host the actual wallpaper files separately.
 
-```
-src/core   environment detection, placement plan, settings, library, Workshop API, steamcmd, WallpaperManager
-src/host   wpe-wallpaper-host: one window per output (layer-shell / X11 desktop / plain window for GNOME+KWin)
-src/app    wpe-linux: Qt Quick UI, D-Bus API (org.wpelinux.WallpaperEngine1), tray
-src/cli    wpectl
-extensions gnome-shell/  kwin (pinning is generated at runtime)  plasma/org.wpelinux.video
-tests      environment + library unit tests
-```
+### Browse and install
 
-## Known gaps and next steps
+1. Open **Community**, paste the direct HTTPS URL of a catalogue's JSON file and click **Load catalog**.
+2. Choose a wallpaper and click **Add to library**. The app checks each file's byte count and SHA-256 hash during installation.
+3. Open **My Library** to apply the wallpaper.
 
-1. Pause when a window is fullscreen/maximised, or on battery (lwe has its own fullscreen pause; the host has none).
-2. Store the Steam API key in the Secret Service / KWallet instead of plaintext JSON (file is chmod 600 for now).
-3. Multiple lwe scenes under Plasma on several monitors: pinning is per-PID and untested.
-4. Web wallpapers rely on an lwe build with CEF.
-5. Per-monitor still images on GNOME are impossible through `gsettings`; they apply to all monitors.
-6. Packaging: PKGBUILD / RPM spec / Flatpak (Flatpak needs `--talk-name` rules for D-Bus and host spawning of lwe).
+The app ships without a default catalogue URL. [`catalog/catalog.json`](catalog/catalog.json) is an empty template you can publish and populate.
+
+### Publish a catalogue
+
+1. Host the wallpaper files on HTTPS storage you control. Use direct file URLs and keep the project's relative paths. A native project needs its `wallpaper.json` and every referenced media file.
+2. From the repository root, use Python 3.9+ to generate an entry. Replace the example path, URL, author and licence with your project's details.
+
+   ```sh
+   python3 tools/catalog-entry.py ./mountain-clock https://cdn.example.com/mountain-clock/ \
+     --id alex.mountain-clock --author "Alex" --license CC-BY-4.0
+   ```
+
+3. Add the generated JSON object to the `wallpapers` array in a copy of the template. Publish the JSON over HTTPS and share its direct URL. Load it in **Community** and install the entry to check that the hosted files match the metadata.
+
+Use a unique ID per wallpaper and a licence that covers the files you distribute. See the [catalogue schema, limits and publishing notes](docs/native-wallpapers.md#metadata-only-community-repository).
+
+## Contributing
+
+Bug reports, compositor testing, fixes and documentation improvements are welcome. For a wallpaper you want to share, use the publishing workflow in the [Catalogue](#catalogue) section.
+
+- [Report a bug or propose a change](https://github.com/donskyblock/WallpaperEngine-Linux/issues).
+- [Read the contribution guide](CONTRIBUTING.md) for the development workflow and what to include in a pull request.
+- [Explore the native wallpaper format](docs/native-wallpapers.md) and the [widget API](docs/scripted-widgets.md).
+
+## Licence
+
+Wallpaper Engine for Linux is licensed under [GPL-3.0-or-later](LICENSE). See [NOTICE](NOTICE) for copyright information.
