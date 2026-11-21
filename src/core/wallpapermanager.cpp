@@ -173,7 +173,7 @@ void WallpaperManager::applyOne(const QString &output, const Classified &c, cons
         s->native = true;
         s->mechanism = QStringLiteral("plasma-plugin");
         ok = nativeapply::plasmaSetWallpaper("org.wpelinux.video", "VideoPath", QUrl::fromLocalFile(c.mainPath).toString(), output, &err);
-    } else if (c.kind == Kind::Image || c.kind == Kind::Video) {
+    } else if (c.kind == Kind::Image || c.kind == Kind::Video || c.kind == Kind::Native) {
         s->mechanism = placementName(plan.window);
         ok = spawnHost(s, c, &err);
     } else {

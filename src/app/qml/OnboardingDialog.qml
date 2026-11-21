@@ -46,7 +46,7 @@ Dialog {
                         Repeater { model: App.caveats; Label { text: "• " + modelData; wrapMode: Text.Wrap; Layout.fillWidth: true; opacity: 0.8; font.pixelSize: 12; color: dlg.palette.text } }
                     }
                 }
-                StatusRow { name: "linux-wallpaperengine"; ok: App.tools.lwe; okText: qsTr("Installed — renders Scene and Web wallpapers"); missingText: qsTr("Not found. Video and image wallpapers still work without it.") }
+                StatusRow { name: "linux-wallpaperengine"; ok: App.tools.lwe; okText: qsTr("Installed — renders Scene and Web wallpapers"); missingText: qsTr("Not found. Native, video and image wallpapers work without it.") }
                 StatusRow { name: "steamcmd"; ok: App.tools.steamcmd; okText: qsTr("Installed — Workshop downloads"); missingText: qsTr("Not found. Install it to download from the Workshop.") }
                 Item { Layout.fillHeight: true }
             }
@@ -54,8 +54,8 @@ Dialog {
             // 1 — API key
             ColumnLayout {
                 spacing: 12
-                Label { text: qsTr("Steam Web API key"); font.pixelSize: 22; font.bold: true; color: dlg.palette.text }
-                Label { Layout.fillWidth: true; wrapMode: Text.Wrap; opacity: 0.75; color: dlg.palette.text; text: qsTr("Needed to browse the Workshop. Create one for free (any domain name works), then paste it here.") }
+                Label { text: qsTr("Steam Web API key (optional)"); font.pixelSize: 22; font.bold: true; color: dlg.palette.text }
+                Label { Layout.fillWidth: true; wrapMode: Text.Wrap; opacity: 0.75; color: dlg.palette.text; text: qsTr("Only needed for Steam Workshop. Local media, Creator, and Community work without Steam. You can skip this step.") }
                 Button { text: qsTr("Open the Steam key page"); onClicked: App.openExternal("https://steamcommunity.com/dev/apikey") }
                 TextField { id: keyField; Layout.fillWidth: true; placeholderText: qsTr("32-character key"); echoMode: TextInput.Password; text: App.settings.steamApiKey }
                 Item { Layout.fillHeight: true }

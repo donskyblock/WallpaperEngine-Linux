@@ -40,6 +40,8 @@ bool Settings::load()
     if (!f.open(QIODevice::ReadOnly)) return false;
     const QJsonObject o = QJsonDocument::fromJson(f.readAll()).object();
     auto str = [&](const char *k, const QString &d) { return o.contains(QLatin1String(k)) ? o[QLatin1String(k)].toString() : d; };
+    m_data.onboardingCompleted = o.value("onboarding_completed").toBool(!o.value("steam_api_key").toString().isEmpty());
+    m_data.catalogUrl = str("catalog_url", m_data.catalogUrl);
     m_data.steamApiKey = str("steam_api_key", m_data.steamApiKey);
     m_data.downloadDir = str("download_dir", m_data.downloadDir);
     if (m_data.downloadDir.isEmpty()) m_data.downloadDir = defaultDownloadDir();
@@ -58,7 +60,7 @@ bool Settings::save() const
     QDir().mkpath(QFileInfo(filePath()).absolutePath());
     QSaveFile f(filePath());
     if (!f.open(QIODevice::WriteOnly)) return false;
-    const QJsonObject o{{"steam_api_key", m_data.steamApiKey}, {"download_dir", m_data.downloadDir},
+    const QJsonObject o{{"onboarding_completed", m_data.onboardingCompleted}, {"catalog_url", m_data.catalogUrl}, {"steam_api_key", m_data.steamApiKey}, {"download_dir", m_data.downloadDir},
                         {"default_monitor", m_data.defaultMonitor}, {"steam_username", m_data.steamUsername},
                         {"audio_enabled", m_data.audioEnabled}, {"volume", m_data.volume}, {"fps_limit", m_data.fpsLimit},
                         {"placement_override", m_data.placementOverride}, {"restore_on_start", m_data.restoreOnStart}};
@@ -67,6 +69,6 @@ bool Settings::save() const
     return f.commit();
 }
 
-bool Settings::needsOnboarding() const { return m_data.steamApiKey.isEmpty(); }
+bool Settings::needsOnboarding() const { return !m_data.onboardingCompleted; }
 
 } // namespace wpe

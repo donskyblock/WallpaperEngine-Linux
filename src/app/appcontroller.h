@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 #pragma once
 #include "models.h"
+#include "studio.h"
 #include "settings.h"
 #include "steamcmd.h"
 #include "wallpapermanager.h"
@@ -15,6 +16,7 @@ namespace wpe {
 // Everything the QML UI (and the D-Bus API) talks to.
 class AppController : public QObject {
     Q_OBJECT
+    Q_PROPERTY(wpe::Studio *studio READ studio CONSTANT)
     Q_PROPERTY(wpe::WorkshopModel *workshop READ workshopModel CONSTANT)
     Q_PROPERTY(wpe::LibraryModel *library READ libraryModel CONSTANT)
     Q_PROPERTY(bool windowVisible READ windowVisible WRITE setWindowVisible NOTIFY windowVisibleChanged)
@@ -37,6 +39,7 @@ class AppController : public QObject {
 public:
     AppController(Settings *settings, WallpaperManager *manager, QObject *parent = nullptr);
 
+    Studio *studio() { return &m_studio; }
     WorkshopModel *workshopModel() { return &m_workshop; }
     LibraryModel *libraryModel() { return &m_library; }
     bool windowVisible() const { return m_windowVisible; }
@@ -111,6 +114,7 @@ private:
 
     Settings *m_settings;
     WallpaperManager *m_manager;
+    Studio m_studio;
     WorkshopClient m_client;
     SteamCmd m_steam;
     WorkshopModel m_workshop;

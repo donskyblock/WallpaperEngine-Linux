@@ -15,6 +15,7 @@ QString kindName(Kind k)
     case Kind::Image: return QStringLiteral("image");
     case Kind::Video: return QStringLiteral("video");
     case Kind::Scene: return QStringLiteral("scene");
+    case Kind::Native: return QStringLiteral("native");
     case Kind::Web: return QStringLiteral("web");
     default: return QStringLiteral("unknown");
     }
@@ -23,6 +24,7 @@ QString kindName(Kind k)
 Kind kindFromString(const QString &s)
 {
     const QString l = s.toLower();
+    if (l == "native") return Kind::Native;
     if (l == "image") return Kind::Image;
     if (l == "video") return Kind::Video;
     if (l == "scene") return Kind::Scene;

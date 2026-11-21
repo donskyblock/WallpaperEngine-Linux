@@ -14,8 +14,9 @@
 namespace wpe {
 
 AppController::AppController(Settings *settings, WallpaperManager *manager, QObject *parent)
-    : QObject(parent), m_settings(settings), m_manager(manager)
+    : QObject(parent), m_settings(settings), m_manager(manager), m_studio(settings, this)
 {
+    connect(&m_studio, &Studio::installed, this, [this](const QString &) { refreshLibrary(); emit toast(tr("Wallpaper saved to your library"), "success"); });
     m_onboarding = settings->needsOnboarding();
     refreshTools();
     refreshLibrary();
@@ -79,7 +80,12 @@ AppController::AppController(Settings *settings, WallpaperManager *manager, QObj
 }
 
 void AppController::setWindowVisible(bool v) { if (m_windowVisible != v) { m_windowVisible = v; emit windowVisibleChanged(); } }
-void AppController::setOnboarding(bool v) { if (m_onboarding != v) { m_onboarding = v; emit onboardingChanged(); } }
+void AppController::setOnboarding(bool v) {
+    if (m_onboarding == v) return;
+    m_onboarding = v;
+    if (!v) { auto s = m_settings->data(); s.onboardingCompleted = true; m_settings->set(s); }
+    emit onboardingChanged();
+}
 
 QString AppController::environmentSummary() const { return m_manager->plan().summary; }
 QStringList AppController::caveats() const { return m_manager->plan().caveats; }

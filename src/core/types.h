@@ -24,7 +24,7 @@ struct Display {
 
 // What a wallpaper actually *is*, after looking at the files — not just what the
 // Steam tag claims.
-enum class Kind { Image, Video, Scene, Web, Unknown };
+enum class Kind { Image, Video, Scene, Web, Native, Unknown };
 QString kindName(Kind k);
 Kind kindFromString(const QString &s);
 

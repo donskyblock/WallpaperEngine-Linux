@@ -52,7 +52,7 @@ ApplicationWindow {
                 }
 
                 Repeater {
-                    model: [{t: qsTr("Workshop"), i: "internet-services", p: 0}, {t: qsTr("My Library"), i: "folder-pictures", p: 1}]
+                    model: [{t: qsTr("Community"), i: "internet-services", p: 3}, {t: qsTr("My Library"), i: "folder-pictures", p: 1}, {t: qsTr("Creator"), i: "document-edit", p: 4}, {t: qsTr("Steam Workshop"), i: "applications-games", p: 0}]
                     ItemDelegate {
                         Layout.fillWidth: true; Layout.leftMargin: 8; Layout.rightMargin: 8
                         text: modelData.t
@@ -85,6 +85,8 @@ ApplicationWindow {
             WorkshopPage { onOpenSettings: win.currentPage = 2 }
             LibraryPage { onBrowseWorkshop: win.currentPage = 0 }
             SettingsPage { onOpenLogin: login.open() }
+            CommunityPage {}
+            CreatorPage {}
         }
     }
 

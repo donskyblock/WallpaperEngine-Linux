@@ -8,6 +8,7 @@ Control {
     readonly property color tone: {
         switch (kind.toLowerCase()) {
         case "video": return "#3b82f6"
+        case "native": return "#e879ab"
         case "scene": return "#8b5cf6"
         case "web": return "#f59e0b"
         case "image": return "#10b981"

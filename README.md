@@ -7,6 +7,17 @@ per compositor instead of assuming Hyprland.
 Scene and Web wallpapers are still rendered by [linux-wallpaperengine](https://github.com/Almamu/linux-wallpaperengine)
 (already C++). This app orchestrates it; a from-scratch scene renderer is a separate multi-year project.
 
+## Independent wallpapers (no Steam required)
+
+Import your own images/videos in **My Library**, build layered wallpapers in
+**Creator**, or load an HTTPS metadata catalog in **Community**. Creator supports
+image/video layers, text/clock widgets, and custom JavaScript widgets with D-Bus
+media data and pointer animations, using a shared Qt preview and native player. Steam Workshop remains an optional source for compatible wallpapers.
+
+See [native wallpaper format, creator, catalog publishing and limits](docs/native-wallpapers.md).
+See [scripted widget API and examples](docs/scripted-widgets.md).
+The metadata-only catalog starter is [catalog/catalog.json](catalog/catalog.json).
+
 ## What runs where
 
 | Session | Still images | Video | Scene / Web (via linux-wallpaperengine) |

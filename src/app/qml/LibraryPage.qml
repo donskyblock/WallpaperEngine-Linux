@@ -9,7 +9,7 @@ Item {
     signal browseWorkshop()
 
     function refilter() {
-        const types = ["all", "video", "scene", "web", "image"]
+        const types = ["all", "video", "scene", "web", "image", "native"]
         App.filterLibrary(searchField.text, types[typeBar.currentIndex])
     }
 
@@ -17,7 +17,7 @@ Item {
         id: fileDialog
         title: qsTr("Choose an image or video")
         nameFilters: [qsTr("Wallpapers (*.png *.jpg *.jpeg *.webp *.gif *.mp4 *.webm *.mkv *.mov)"), qsTr("All files (*)")]
-        onAccepted: App.applyPath(selectedFile.toString())
+        onAccepted: App.studio.importMedia(selectedFile.toString())
     }
 
     ColumnLayout {
@@ -36,13 +36,13 @@ Item {
                     id: typeBar
                     background: null
                     Repeater {
-                        model: [qsTr("All"), qsTr("Video"), qsTr("Scene"), qsTr("Web"), qsTr("Image")]
+                        model: [qsTr("All"), qsTr("Video"), qsTr("Scene"), qsTr("Web"), qsTr("Image"), qsTr("Native")]
                         TabButton { text: modelData; width: implicitWidth }
                     }
                     onCurrentIndexChanged: page.refilter()
                 }
                 Item { Layout.fillWidth: true }
-                Button { text: qsTr("Use a file…"); icon.name: "document-open"; onClicked: fileDialog.open() }
+                Button { text: qsTr("Import media…"); enabled: !App.studio.busy; icon.name: "document-open"; onClicked: fileDialog.open() }
                 ToolButton { icon.name: "view-refresh"; text: "⟳"; onClicked: App.refreshLibrary(); ToolTip.visible: hovered; ToolTip.text: qsTr("Rescan") }
             }
         }
@@ -87,7 +87,7 @@ Item {
                 Label { Layout.fillWidth: true; horizontalAlignment: Text.AlignHCenter; text: qsTr("Nothing here yet"); font.pixelSize: 18; font.bold: true; color: palette.text }
                 Label {
                     Layout.fillWidth: true; horizontalAlignment: Text.AlignHCenter; wrapMode: Text.Wrap; opacity: 0.65; color: palette.text
-                    text: qsTr("Download wallpapers from the Workshop, or point at an image or video on disk. Anything you've subscribed to in Steam shows up here too.")
+                    text: qsTr("Import images and videos, build a wallpaper in Creator, or add one from Community. Steam Workshop wallpapers also appear here.")
                 }
                 Button { Layout.alignment: Qt.AlignHCenter; text: qsTr("Browse the Workshop"); highlighted: true; onClicked: page.browseWorkshop() }
             }

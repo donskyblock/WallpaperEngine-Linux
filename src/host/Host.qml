@@ -2,11 +2,15 @@
 import QtQuick
 import QtQuick.Window
 import QtMultimedia
+import "qrc:/shared"
 
 Rectangle {
     id: root
     property string kind: "image"
     property url source
+    property var nativeDocument: ({})
+    property var externalPointer: ({})
+    property url nativeBase
     property int volume: 0
     color: "black"
 
@@ -14,7 +18,18 @@ Rectangle {
 
     Loader {
         anchors.fill: parent
-        sourceComponent: root.kind === "video" ? videoComponent : (root.animatedImage ? animatedComponent : stillComponent)
+        sourceComponent: root.kind === "native" ? nativeComponent : root.kind === "video" ? videoComponent : (root.animatedImage ? animatedComponent : stillComponent)
+    }
+
+    Component {
+        id: nativeComponent
+        NativeCanvas {
+            externalPointer: root.externalPointer
+            document: root.nativeDocument
+            baseUrl: root.nativeBase
+            volume: root.volume
+            onPlaybackFailed: message => { console.error(message); Qt.exit(3) }
+        }
     }
 
     Component {

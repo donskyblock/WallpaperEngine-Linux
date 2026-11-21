@@ -7,6 +7,8 @@ qt_add_qml_module(wpe-linux
     RESOURCE_PREFIX /qt/qml
     NO_PLUGIN
     QML_FILES
+        qml/CreatorPage.qml
+        qml/CommunityPage.qml
         qml/Main.qml
         qml/WorkshopPage.qml
         qml/LibraryPage.qml
@@ -36,3 +38,6 @@ target_compile_definitions(wpe-linux PRIVATE PROJECT_VERSION="${PROJECT_VERSION}
 target_link_libraries(wpe-linux PRIVATE wpecore Qt6::Widgets Qt6::Quick Qt6::QuickControls2 Qt6::Qml Qt6::DBus Qt6::Network)
 target_compile_options(wpe-linux PRIVATE -Wall -Wextra)
 install(TARGETS wpe-linux DESTINATION ${CMAKE_INSTALL_BINDIR})
+
+qt_add_resources(wpe-linux native_canvas PREFIX "/shared" BASE ${CMAKE_SOURCE_DIR}/src/shared FILES ${CMAKE_SOURCE_DIR}/src/shared/NativeCanvas.qml)
+target_link_libraries(wpe-linux PRIVATE Qt6::Multimedia)

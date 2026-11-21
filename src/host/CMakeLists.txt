@@ -1,7 +1,8 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 qt_add_executable(wpe-wallpaper-host main.cpp)
 qt_add_resources(wpe-wallpaper-host host_qml PREFIX "/" FILES Host.qml)
-target_link_libraries(wpe-wallpaper-host PRIVATE Qt6::Gui Qt6::Quick Qt6::Qml Qt6::Multimedia)
+qt_add_resources(wpe-wallpaper-host native_canvas PREFIX "/shared" BASE ${CMAKE_SOURCE_DIR}/src/shared FILES ${CMAKE_SOURCE_DIR}/src/shared/NativeCanvas.qml)
+target_link_libraries(wpe-wallpaper-host PRIVATE wpecore Qt6::Gui Qt6::Quick Qt6::Qml Qt6::Multimedia)
 if(LayerShellQt_FOUND)
     target_link_libraries(wpe-wallpaper-host PRIVATE LayerShellQt::Interface)
     target_compile_definitions(wpe-wallpaper-host PRIVATE WPE_HAVE_LAYERSHELL)

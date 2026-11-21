@@ -2,6 +2,7 @@
 #include "library.h"
 
 #include "tools.h"
+#include "nativeproject.h"
 
 #include <QCryptographicHash>
 #include <QDir>
@@ -35,6 +36,7 @@ Classified classify(const QString &path, const QString &typeHint)
 {
     const QFileInfo fi(path);
     if (fi.isFile()) {
+        if (fi.fileName() == "wallpaper.json") return readNativeProject(fi.absoluteFilePath()).isEmpty() ? Classified{} : Classified{Kind::Native, fi.absoluteFilePath()};
         const QString ext = fi.suffix().toLower();
         if (kVideoExts.contains(ext)) return {Kind::Video, fi.absoluteFilePath()};
         if (kImageExts.contains(ext)) return {Kind::Image, fi.absoluteFilePath()};
@@ -44,6 +46,7 @@ Classified classify(const QString &path, const QString &typeHint)
     if (!fi.isDir()) return {};
 
     const QDir d(path);
+    if (d.exists("wallpaper.json")) return classify(d.filePath("wallpaper.json"));
     const QJsonObject proj = readProject(d);
     const Kind declared = kindFromString(proj.value("type").toString(typeHint));
     const QString file = proj.value("file").toString();
@@ -126,6 +129,24 @@ QList<LibraryItem> scanLibrary(const QString &downloadDir)
         it.path = fi.absoluteFilePath();
         it.contentType = kindName(c.kind);
         if (c.kind == Kind::Image) it.previewPath = it.path;
+        out << it;
+    }
+    // Managed independent projects and imported media live separately from Workshop content.
+    const QDir local(QDir(downloadDir).filePath("local"));
+    for (const auto &di : local.entryInfoList(QDir::Dirs | QDir::NoDotAndDotDot, QDir::Name)) {
+        const auto c = classify(di.absoluteFilePath());
+        if (c.kind == Kind::Unknown) continue;
+        LibraryItem it;
+        it.id = stableId(di.absoluteFilePath());
+        it.title = di.fileName();
+        it.path = c.mainPath;
+        it.contentType = kindName(c.kind);
+        if (c.kind == Kind::Native) it.title = readNativeProject(c.mainPath).value("title").toString(it.title);
+        else {
+            QFile metadata(QDir(di.absoluteFilePath()).filePath("project.json"));
+            if (metadata.open(QIODevice::ReadOnly)) it.title = QJsonDocument::fromJson(metadata.readAll()).object().value("title").toString(it.title);
+        }
+        if (c.kind == Kind::Image) it.previewPath = c.mainPath;
         out << it;
     }
     return out;

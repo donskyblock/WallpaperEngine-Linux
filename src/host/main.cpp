@@ -1,3 +1,4 @@
+#include "widgetruntime.h"
 // SPDX-License-Identifier: GPL-3.0-or-later
 //
 // wpe-wallpaper-host: draws one image/video wallpaper on one output and gets itself *underneath*
@@ -6,10 +7,14 @@
 //   x11-desktop      _NET_WM_WINDOW_TYPE_DESKTOP + below/sticky (XFCE, i3, bspwm, openbox, Cinnamon, MATE, ...)
 //   gnome-extension  plain frameless window; the bundled GNOME Shell extension adopts it
 //   kwin-script      plain frameless window; a KWin script pins it (pid-matched)
+#include "nativeproject.h"
 #include <QCommandLineParser>
+#include <QFileInfo>
 #include <QGuiApplication>
 #include <QQmlEngine>
 #include <QQuickView>
+#include <QQuickItem>
+#include <QCursor>
 #include <QScreen>
 #include <QTimer>
 
@@ -95,13 +100,14 @@ int main(int argc, char **argv)
     }
 
     QGuiApplication app(argc, argv);
+    wpe::registerNativeWidgets();
     QGuiApplication::setApplicationName("wpe-wallpaper-host");
     QGuiApplication::setDesktopFileName("org.wpelinux.WallpaperHost");
 
     QCommandLineParser p;
     p.addHelpOption();
     QCommandLineOption oOutput("output", "Output (connector) name", "name");
-    QCommandLineOption oKind("kind", "image | video", "kind", "image");
+    QCommandLineOption oKind("kind", "image | video | native", "kind", "image");
     QCommandLineOption oPath("path", "File to display", "path");
     QCommandLineOption oPlace("placement", "layer-shell | x11-desktop | gnome-extension | kwin-script", "mode", "layer-shell");
     QCommandLineOption oVol("volume", "0-100 (0 = muted)", "n", "0");
@@ -119,9 +125,19 @@ int main(int argc, char **argv)
     }
     if (!screen) { fprintf(stderr, "no screens available\n"); return 65; }
 
+    QVariantMap nativeDocument;
+    QUrl nativeBase;
+    if (p.value(oKind) == "native") {
+        QString error;
+        const auto doc = wpe::readNativeProject(p.value(oPath), &error);
+        if (doc.isEmpty()) { fprintf(stderr, "%s\n", qPrintable(error)); return 64; }
+        nativeDocument = doc.toVariantMap();
+        nativeBase = QUrl::fromLocalFile(QFileInfo(p.value(oPath)).absolutePath() + '/');
+    }
     QQuickView view;
     view.setInitialProperties({{"kind", p.value(oKind)},
                                {"source", QUrl::fromLocalFile(p.value(oPath))},
+                               {"nativeDocument", nativeDocument}, {"nativeBase", nativeBase},
                                {"volume", p.value(oVol).toInt()}});
     QObject::connect(view.engine(), &QQmlEngine::quit, &app, &QCoreApplication::quit);
     QObject::connect(view.engine(), &QQmlEngine::exit, &app, &QCoreApplication::exit);
@@ -134,7 +150,32 @@ int main(int argc, char **argv)
     view.setTitle(QStringLiteral("wpe-wallpaper:%1@%2,%3,%4,%5").arg(screen->name()).arg(g.x()).arg(g.y()).arg(g.width()).arg(g.height()));
     view.setScreen(screen);
     view.setGeometry(screen->geometry());
-    view.setFlags(Qt::FramelessWindowHint | Qt::WindowTransparentForInput | Qt::WindowDoesNotAcceptFocus | Qt::WindowStaysOnBottomHint);
+    const bool pointer = nativeDocument.value("version").toInt() == 2 && nativeDocument.value("capabilities").toStringList().contains("pointer");
+    bool globalPointer = false;
+#ifdef WPE_HAVE_XCB
+    globalPointer = QGuiApplication::platformName() == "xcb";
+#endif
+    Qt::WindowFlags flags = Qt::FramelessWindowHint | Qt::WindowDoesNotAcceptFocus | Qt::WindowStaysOnBottomHint;
+    if (!pointer || globalPointer) flags |= Qt::WindowTransparentForInput;
+    view.setFlags(flags);
+    QTimer pointerTimer;
+#ifdef WPE_HAVE_XCB
+    if (pointer && globalPointer) {
+        QObject::connect(&pointerTimer, &QTimer::timeout, &view, [&view] {
+            auto *connection = xcbConnection();
+            if (!connection) return;
+            const auto root = xcb_setup_roots_iterator(xcb_get_setup(connection)).data->root;
+            auto *reply = xcb_query_pointer_reply(connection, xcb_query_pointer(connection, root), nullptr);
+            if (!reply) return;
+            const auto point = view.mapFromGlobal(QPoint(reply->root_x, reply->root_y));
+            const bool pressed = reply->mask & XCB_BUTTON_MASK_1;
+            free(reply);
+            view.rootObject()->setProperty("externalPointer", QVariantMap{{"available", true}, {"inside", QRect(QPoint(), view.size()).contains(point)},
+                {"x", double(point.x()) / qMax(1, view.width())}, {"y", double(point.y()) / qMax(1, view.height())}, {"pressed", pressed}});
+        });
+        pointerTimer.start(33);
+    }
+#endif
 
     if (placement == "layer-shell") {
 #ifdef WPE_HAVE_LAYERSHELL

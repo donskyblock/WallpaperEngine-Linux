@@ -1,3 +1,4 @@
+#include "widgetruntime.h"
 // SPDX-License-Identifier: GPL-3.0-or-later
 #include "appcontroller.h"
 #include "dbusapi.h"
@@ -59,6 +60,7 @@ void chooseStyle(const QQmlEngine &engine)
 int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
+    wpe::registerNativeWidgets();
     QApplication::setApplicationName("wpe-linux");
     QApplication::setOrganizationName("wpelinux");
     QApplication::setApplicationDisplayName("Wallpaper Engine");
@@ -74,7 +76,7 @@ int main(int argc, char **argv)
     QCommandLineOption oBg("background", "Start hidden (restores wallpapers, lives in the tray).");
     QCommandLineOption oOnb("onboarding", "Force the first-run wizard.");
     QCommandLineOption oShot("screenshot", "(dev) Save a screenshot of the window and quit.", "file");
-    QCommandLineOption oPage("page", "(dev) Open page: 0=Workshop 1=Library 2=Settings", "n", "0");
+    QCommandLineOption oPage("page", "(dev) Open page: 0=Workshop 1=Library 2=Settings 3=Community 4=Creator", "n", "1");
     QCommandLineOption oDemo("demo-data", "(dev) Fill Workshop with fake items using previews from <dir>.", "dir");
     p.addOptions({oBg, oOnb, oShot, oPage, oDemo});
     p.process(app);

@@ -7,6 +7,7 @@ namespace wpe {
 
 struct AppSettings {
     QString steamApiKey;
+    QString catalogUrl;
     QString downloadDir;
     QString defaultMonitor;
     QString steamUsername;
@@ -15,6 +16,7 @@ struct AppSettings {
     int fpsLimit = 30;
     QString placementOverride; // "" = auto
     bool restoreOnStart = true;
+    bool onboardingCompleted = false;
 };
 
 // Same file + keys as the Tauri version (~/.config/wpe-linux/settings.json), so
